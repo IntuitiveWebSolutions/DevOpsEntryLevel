@@ -9,6 +9,7 @@ We are primarily a Python shop, so projects submitted in Python are preferred. H
 Using [Rekognition](https://aws.amazon.com/rekognition/), [Lambda](https://aws.amazon.com/lambda/) and [S3 Object Tagging](http://docs.aws.amazon.com/AmazonS3/latest/dev/object-tagging.html) design a service that will automatically tag newly uploaded images with the top 3 labels returned by Recognition. Please provide us with instructions on how to test and operate your service (either using IAM user credentials or other custom interface). If you provide IAM credentials please include the JSON policy as well.
 
 Bonus points will be awarded for extra features outside of the basic requirements. Here are some ideas:
+ * good supporting documentation with diagrams or examples
  * a custom [CloudWatch dashboard](http://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Dashboards.html) to monitor the health of the service
  * a [CloudFormation](https://aws.amazon.com/cloudformation/) manifest or other similar tool ([Terraform](https://www.terraform.io/), etc) to describe the entire service
  * a hosted web UI or custom API for your service
